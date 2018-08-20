@@ -1,8 +1,43 @@
-h1{
-    color: #ab2322;
-}
 
-body {
-    background-color: #a8b9ff;
+#beta{
+    color: #ab0905;
+}
+.formAddUser{
+    position: fixed;
+    left: 30px;
+    top: 250px;
+}
+.formSearchUser{
+    position: fixed;
+    left: 30px;
+    top: 250px;
+}
+.containerUp{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    right: 0;
+    height: 50px;
+    background-color: #00008b;
+}
+.mainPicture{
+    position: fixed;
+    left: 25px;
+    top: 25px;
+}
+.containerDown{
+    postiont: fixed;
+    top: 45px;
+    height: 10px;
+    background-color: darkblue;
+}
+.footer{
+    position: fixed;
+    bottom: 25px;
+}
+#backButton{
+    position: fixed;
+    top: 100px;
+    right: 30px;
 }
 

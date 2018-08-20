@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Wyszukaj Uzytkownika</title>
+    <!--<link rel="stylesheet" type="text/css" href="/css/style.css">-->
+    <!--<link rel="stylesheet" href="/css/bootstrap.min.css">-->
+    <link th:href ="@{/static/css/bootstrap.min.css}" rel="stylesheet">
+    <link th:href ="@{/static/css/style.css}" rel="stylesheet">
+
+
+<body>
+
+<div class="mainPicture">
+    <img th:src="@{/static/img/jeppLogo.png}" alt="jepplogo" height="100" right="10px"/>
+</div>
+<div class="containerUp">
+</div>
+<div class="containerDown">
+</div>
+<br>
+<br>
+<br>
+<center><h1 id="beta">Beta Aplikacja</h1></center>
+
+<div id="backButton">
+    <a th:href="@{http://localhost:8081}"><button class="btn btn-danger btn-sm" type="button">Powrot do strony glownej</button></a>
+</div>
+
+
+<form class="formSearchUser" role="form">
+    <h4>Wyszukaj Uzytkownika:</h4>
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Imie</label>
+        <div class="col-sm-30">
+            <input type="text" class="form-control" id="name" placeholder="Podaj imie uzytkownika">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="lastName" class="col-sm-2 control-label">Nazwisko</label>
+        <div class="col-sm-30">
+            <input type="text" class="form-control" id="lastName" placeholder="Podaj nazwisko uzytkownika">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-warning btn-sm">Wyszukaj</button>
+        </div>
+    </div>
+</form>
+
+
+<hr>
+<footer class="footer">
+    Autor:
+    <address>Mateusz Ciezki (ciezkimateusz@gmail.com)</address>
+    <p>Wszelkie prawa zastrzeżone</p></footer>
+
+<script th:src="@{/static/js/bootstrap.bundle.min.js}"></script>
+<script th:src="@{/static/js/jquery-3.3.1.slim.min.js}"></script>
+</body>
+</html>
