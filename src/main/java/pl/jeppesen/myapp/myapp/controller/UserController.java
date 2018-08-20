@@ -11,7 +11,6 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-
     @PostMapping()
     @ResponseStatus(HttpStatus.CREATED)
     public User create(@RequestBody User newUser) {

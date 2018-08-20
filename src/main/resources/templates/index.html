@@ -4,7 +4,8 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <title>Jeppesen Apllication</title>
     <!--<link rel="stylesheet" type="text/css" href="/css/style.css">-->
     <!--<link rel="stylesheet" href="/css/bootstrap.min.css">-->
@@ -38,10 +39,11 @@
 <br>
 <br>
 <center>
-    <a href="/templates/addUser.html"><button class="btn btn-primary" type="button">Dodaj Uzytkownia</button></a>
-    <a href="/templates/searchUser.html"><button class="btn btn-primary" type="button">Wyszukaj Uzytkownika</button></a>
+    <a href="/addUser.html"><button class="btn btn-primary" type="button">
+        <i class="fas fa-user-plus"></i> Dodaj Uzytkownia</button></a>
+    <a href="/searchUser.html"><button class="btn btn-primary" type="button">
+        <i class="fas fa-search"></i> Wyszukaj Uzytkownika</button></a>
 </center>
-
 
 
 
@@ -50,10 +52,10 @@
     Autor:
     <address>Mateusz Ciezki (ciezkimateusz@gmail.com)</address>
     <p>Wszelkie prawa zastrzeżone</p></footer>
-</body>
 
-<script th:src="@{/js/bootstrap.bundle.min.js}"></script>
 <script th:src="@{/js/jquery-3.3.1.slim.min.js}"></script>
+<script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+</body>
 </html>
 
 
